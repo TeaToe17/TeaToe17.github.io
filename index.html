@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        position: relative;
+        background: green;
+      }
+
+      .form-container {
+        padding: 20px;
+        padding-bottom: 40px;
+        display: block;
+        margin: auto;
+        margin-top: 150px;
+        width: 350px;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 4px;
+        border-radius: 4px;
+      }
+
+      .textboxes-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      input {
+        height: 40px;
+        outline: none;
+        border: none;
+        border-radius: 4px;
+        color: #323232;
+        padding: 0 15px;
+        transition: all 500ms;
+      }
+
+      button {
+        background: green;
+        width: 120px;
+        color: #fff;
+        border: none;
+        outline: none;
+        height: 45px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h1 style="color: rgb(255, 255, 255)">Sign In</h1>
+      <div class="textboxes-container">
+        <input placeholder="Username" />
+        <input placeholder="Email" />
+        <input placeholder="Password" />
+
+        <button>Sign In</button>
+      </div>
+    </div>
+  </body>
+</html>
